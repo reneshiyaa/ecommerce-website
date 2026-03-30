@@ -1,0 +1,30 @@
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card button {
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: purple;
+}
